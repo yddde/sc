@@ -119,9 +119,9 @@ for g in groups:
     members = []
     for j in all_participants:
         user = {}
-        user['username'] = j.username
-        user['id'] = j.id
-        user['access_hash'] = j.access_hash
+        user['@YDDDE'] = j.username
+        user['1917795624'] = j.id
+        user['-1001549373225'] = j.access_hash
 
         # user['name'] = j.name
         members.append(user)
